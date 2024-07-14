@@ -14,6 +14,7 @@
 		"build:resolvers": "node utils/build.mjs",
 		"predeploy": "npm run codegen && npm run build:resolvers",
 		"deploy": "npx aws-cdk deploy",
+		"destroy": "npx aws-cdk destroy",
 		"predeploy:local": "npm run codegen && npm run build:resolvers",
 		"deploy:local": "npx aws-cdk deploy --profile fsps-cdk-admin --outputs-file output.json"
 	},
