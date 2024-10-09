@@ -2,7 +2,7 @@
 	"globals": {
 		"appName": "todos-cdk-starter-kit",
 		"hosting": {
-			"ghTokenName": "github-token",
+			"ghTokenName": "github-token-2",
             "ghOwner": "daspapan",
             "repo": "nextjs-cdk-starter"
 		}
